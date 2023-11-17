@@ -1,0 +1,69 @@
+ /* Estilos personalizados */
+ body {
+    background-color: #f7f7f7;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+h1, h2 {
+    color: #333;
+}
+
+table {
+    background-color: #fff;
+}
+
+th, td {
+    text-align: center;
+}
+
+.ingresos-table, .inversiones-table {
+    background-color: #d6f5d6;
+}
+
+.gastos-table, .deudas-table {
+    background-color: #ffcccc;
+}
+#g{
+    text-align: center;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 20rem;
+  }
+
+
+
+/*BOTON WHATSAAP*/
+#whatsapp{
+    position: fixed;
+    width: 3rem;
+    height: 3rem;
+    bottom: 4rem;
+    right: 4rem;
+    text-align: center;
+    z-index: 1000;  
+}
+
+/*FLECHA REGRESO*/
+.imagen-regreso {
+    position: fixed;
+    bottom: 4rem;
+    right: 4rem;
+    cursor: pointer;
+    z-index: 1000;
+    margin-bottom: 5%;
+    }
+
+    .carousel-inner img{
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+

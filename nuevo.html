@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gestión Financiera</title>
+    <!-- Incluye Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styl.css"/>
+<!--   <style>
+        /* Estilos personalizados */
+        body {
+            background-color: #f7f7f7;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            background-color: #ffffff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        table {
+            background-color: #fff;
+        }
+
+        th, td {
+            text-align: center;
+        }
+
+        .ingresos-table, .inversiones-table {
+            background-color: #d6f5d6;
+        }
+
+        .gastos-table, .deudas-table {
+            background-color: #ffcccc;
+        }
+        #g{
+            text-align: center;
+        }
+    </style>--> 
+</head>
+<body>
+
+
+    <div class="container">
+        <h1 id="g">Gestión Financiera</h1>
+        <div class="row">
+          <div class="col-sm-12">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="img/4.jpg" alt="Primera imagen">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/5.jpg" alt="Segunda imagen">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/6.jpg" alt="Tercera imagen">
+                </div>
+              </div>
+              
+              <!-- Controles de navegación -->
+              <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+              </a>
+              <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Siguiente</span>
+              </a>
+            </div>     
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+    <div class="container">
+        <h1 id="g">Tablas de gestion</h1>
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Ingresos</h2>
+                <table class="table ingresos-table">
+                    <thead>
+                        <tr>
+                            <th>Descripción</th>
+                            <th>Monto</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Sueldo</td>
+                            <td>$3,000</td>
+                        </tr>
+                        <tr>
+                            <td>Ventas</td>
+                            <td>$1,500</td>
+                        </tr>
+                        <!-- Agrega más filas aquí -->
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-md-6">
+                <h2>Gastos</h2>
+                <table class="table gastos-table">
+                    <thead>
+                        <tr>
+                            <th>Descripción</th>
+                            <th>Monto</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Alquiler</td>
+                            <td>$800</td>
+                        </tr>
+                        <tr>
+                            <td>Facturas</td>
+                            <td>$200</td>
+                        </tr>
+                        <!-- Agrega más filas aquí -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Otras tablas con colores personalizados -->
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Inversiones</h2>
+                <table class="table inversiones-table">
+                    <thead>
+                        <tr>
+                            <th>Descripción</th>
+                            <th>Monto</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Acciones</td>
+                            <td>$5,000</td>
+                        </tr>
+                        <tr>
+                            <td>Fondos Mutuos</td>
+                            <td>$2,000</td>
+                        </tr>
+                        <!-- Agrega más filas aquí -->
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-md-6">
+                <h2>Deudas</h2>
+                <table class="table deudas-table">
+                    <thead>
+                        <tr>
+                            <th>Descripción</th>
+                            <th>Monto</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Tarjeta de Crédito</td>
+                            <td>-$500</td>
+                        </tr>
+                        <tr>
+                            <td>Préstamo Personal</td>
+                            <td>-$1,000</td>
+                        </tr>
+                        <!-- Agrega más filas aquí -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <a href="https://api.whatsapp.com/send?phone=3245771318" target="_blank">
+        <img id = "whatsapp" src="img/icono_whatsapp.png" alt="WhatsApp" >
+        </a>
+
+
+  <a href="#g">
+            <img class="imagen-regreso" src="img/arriba.png" alt="Subir al Inicio"  height="40rem" width="40rem">
+        </a>
+
+    <!-- Incluye Bootstrap JS y jQuery (opcional) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
+
+
+
